@@ -24,7 +24,7 @@ class C2HashAlgorithm {
             if(hash.size > 0){
                 print("| ${this.hash[key]} ")
             }else{
-                println(this.hash[key])
+                println("| ${this.hash[key]} |")
             }
         }
     }
