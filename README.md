@@ -27,7 +27,7 @@ Given an array A consisting of N integers fulfilling the above conditions, retur
  For example, in array A such that: <br>
    `A[0] = 9  A[1] = 3  A[2] = 9` <br>
    `A[3] = 3  A[4] = 9  A[5] = 7` <br>
-   `A[6] = 9  A[7] = 8  A[8] = 1 ` <br>
+   `A[6] = 9  A[7] = 8  A[8] = 1` <br>
      
  - the elements at indexes 0 and 2 have value 9,
  - the elements at indexes 1 and 3 have value 3,
@@ -42,7 +42,7 @@ Given an array A consisting of N integers fulfilling the above conditions, retur
 For example, in array A such that: <br>
    `A[0] = 9  A[1] = 3  A[2] = 9` <br>
    `A[3] = 3  A[4] = 9  A[5] = 7` <br>
-   `A[6] = 9  A[7] = 8  A[8] = 1 ` <br>
+   `A[6] = 9  A[7] = 8  A[8] = 1` <br>
 - the function should return 7, 8, 1, as explained in the example above.
 - Write an efficient algorithm for the following assumptions:
   * Time complexity O(n) <br>                                                                              
