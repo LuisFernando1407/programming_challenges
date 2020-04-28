@@ -16,12 +16,12 @@ class C1XorAlgorithm {
         3º It is possible to do the reverse operation thus taking the value that underwent operation
     */
     fun execute(array: IntArray) {
-        repeat(array.size){ index -> //O(n)
-            this.oXor = this.oXor xor array[index] //O(1)
+        repeat(array.size){ index -> //O(n) Time
+            this.oXor = this.oXor xor array[index] //O(1) Space
         }
     }
 
     fun show(){
-        println(this.oXor)
+        println("| ${this.oXor} |")
     }
 }
